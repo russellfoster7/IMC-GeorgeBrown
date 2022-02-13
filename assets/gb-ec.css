@@ -463,3 +463,8 @@ div:hover .zoomPicOverlay{
 .tooltip-simple-image:hover .tooltiptext {
     visibility: visible;
 }
+
+.lesson-card{
+    min-height: 200px;
+}
+
