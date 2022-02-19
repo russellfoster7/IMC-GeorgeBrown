@@ -336,7 +336,7 @@ margin:auto;
 text-align:center;
 position:relative;
  color: #fff; 
-	border: 10px solid #5A0E01; 
+	border: 10px solid #004667; 
 	border-radius: 5px; 
 }
 .frontOfCard{
@@ -345,7 +345,7 @@ height:280px;
   padding: 1em; 
 position:absolute;
 top:0;
-background:#5A0E01;
+background:#004667;
 transform:perspective(2000px) rotateX(0deg);
 z-index:5;
 transition:all .5s ease;
@@ -360,7 +360,7 @@ position:absolute;
 top:0;
 width:280px;
 height:280px;
-background:#5A0E01;
+background:#004667;
         transform:perspective(2000px) rotateX(-180deg);
         transition:all .5s ease;
 text-align:center;
@@ -379,8 +379,8 @@ z-index:7;
   height: auto;
   overflow: hidden;
   position: relative;
-  background: #5A0E01;
-  border: 8px solid #5A0E01;
+  background: #004667;
+  border: 8px solid #004667;
 	border-radius: 5px;
   justify-content:center;
   align-items:center;
@@ -423,7 +423,7 @@ div:hover .zoomPicOverlay{
   position: absolute;
   width: 40px;
   height: 40px;
-  background: #5A0E01;
+  background: #004667;
   color: #fff;
   font-weight: 700;
   text-align: center;
@@ -444,7 +444,7 @@ div:hover .zoomPicOverlay{
 .tooltip-simple-image .tooltiptext {
     visibility: hidden;
     width: 320px;
-    background-color: #5A0E01;
+    background-color: #004667;
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -464,7 +464,7 @@ div:hover .zoomPicOverlay{
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #5A0E01 transparent transparent transparent;
+    border-color: #004667 transparent transparent transparent;
 }
 
 .tooltip-simple-image:hover .tooltiptext {
