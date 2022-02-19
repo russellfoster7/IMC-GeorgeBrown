@@ -470,3 +470,7 @@ div:hover .zoomPicOverlay{
     min-height: 200px;
 }
 
+.flowersBackground{
+background-image: url(../imgs/background 1.png);
+}
+
