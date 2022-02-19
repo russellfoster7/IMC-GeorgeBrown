@@ -479,7 +479,7 @@ div:hover .zoomPicOverlay{
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
-  margin-top:100px; 
-  margin-bottom:100px; 
+  padding-top: 50px;
+  padding-bottom: 140px;
 }
 
