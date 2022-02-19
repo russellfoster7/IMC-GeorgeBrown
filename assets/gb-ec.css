@@ -19,6 +19,10 @@ h2{
     font-size: 1.625em;
 }
 
+.noBorder{
+	border: none; 
+}
+
 .basic-titles{
 	color: #272727;
 	border: none;
