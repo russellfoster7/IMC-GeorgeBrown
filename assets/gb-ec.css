@@ -7,8 +7,8 @@ h1{
 }
 
 h2{
-	color: #983223;
-	border-bottom: 4px #983223 solid;
+	color: #882A60;
+	border-bottom: 4px #882A60 solid;
 	padding-bottom:10px;
 	margin-bottom: 0.512em;
     line-height: 1.25em;
@@ -25,9 +25,9 @@ h2{
 
 
 h3{
-	color: #AB6218;
-	border-bottom: 4px #AB6218 solid;
-	border-left: 4px #AB6218 solid;
+	color: #882A60;
+	border-bottom: 4px #882A60 solid;
+	border-left: 4px #882A60 solid;
 	padding:10px 0px 10px 20px;
     font-family: "Oswald",sans-serif;
 	font-size: 1.25em;
@@ -37,9 +37,9 @@ h3{
 }
 
 h4{
-	color: #265941;
-	border-bottom: 3px #265941 solid;
-	border-left: 3px #265941 solid;
+	color: #C85027;
+	border-bottom: 3px #C85027 solid;
+	border-left: 3px #C85027 solid;
 	padding:0px 0px 15px 30px;
 	font-size: 1em;
     margin-bottom: 0.512em;
@@ -48,7 +48,7 @@ h4{
 }
 
 .h4-text{
-	color: #265941;
+	color: #C85027;
 	padding:0px 0px 15px 30px;
 	font-size: 1em;
     margin-bottom: 0.512em;
