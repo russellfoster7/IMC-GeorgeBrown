@@ -20,7 +20,8 @@ h2{
 }
 
 .noBorder{
-	border: none; 
+	border: none;
+	padding:none; 
 }
 
 .basic-titles{
