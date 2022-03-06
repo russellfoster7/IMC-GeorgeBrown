@@ -4,6 +4,8 @@ h1 {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 2em;
+}
+h1, .display-8{
     padding: 0.5em;
     background-color: #00000090;
 }
