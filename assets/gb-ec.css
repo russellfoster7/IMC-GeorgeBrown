@@ -1,62 +1,63 @@
-
-h1{
-	line-height: 1.25em;
+h1 {
+    line-height: 1.25em;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 2em;
+    padding: 0.5em;
+    background-color: #00000090;
 }
 
-h2{
-	color: #B22126;
-	border-bottom: 4px #B22126 solid;
-	padding-bottom:10px;
-	margin-bottom: 0.512em;
+h2 {
+    color: #B22126;
+    border-bottom: 4px #B22126 solid;
+    padding-bottom: 10px;
+    margin-bottom: 0.512em;
     line-height: 1.25em;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: "Oswald",sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 1.625em;
 }
 
-.noBorder{
-	border: none;
-	padding:none; 
+.noBorder {
+    border: none;
+    padding: none;
 }
 
-.basic-titles{
-	color: #272727;
-	border: none;
+.basic-titles {
+    color: #272727;
+    border: none;
 }
 
 
-h3{
-	color: #882A60;
-	border-bottom: 4px #882A60 solid;
-	border-left: 4px #882A60 solid;
-	padding:10px 0px 10px 20px;
-    font-family: "Oswald",sans-serif;
-	font-size: 1.25em;
+h3 {
+    color: #882A60;
+    border-bottom: 4px #882A60 solid;
+    border-left: 4px #882A60 solid;
+    padding: 10px 0px 10px 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.25em;
     margin-bottom: 0.64em;
     line-height: 1.25em;
     font-weight: 600;
 }
 
-h4{
-	color: #C85027;
-	border-bottom: 3px #C85027 solid;
-	border-left: 3px #C85027 solid;
-	padding:0px 0px 15px 30px;
-	font-size: 1em;
+h4 {
+    color: #C85027;
+    border-bottom: 3px #C85027 solid;
+    border-left: 3px #C85027 solid;
+    padding: 0px 0px 15px 30px;
+    font-size: 1em;
     margin-bottom: 0.512em;
     text-transform: uppercase;
     line-height: 1.25em;
 }
 
-.h4-text{
-	color: #C85027;
-	padding:0px 0px 15px 30px;
-	font-size: 1em;
+.h4-text {
+    color: #C85027;
+    padding: 0px 0px 15px 30px;
+    font-size: 1em;
     margin-bottom: 0.512em;
     text-transform: uppercase;
     line-height: 1.25em;
@@ -66,7 +67,7 @@ h5 {
     font-weight: 600;
     margin-bottom: 0;
     font-size: 1.0625em;
-    font-family: "Oswald",sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 h6 {
@@ -75,23 +76,25 @@ h6 {
     font-weight: 600;
 }
 
-a{
-	color:#983223; 
-	text-decoration: underline; 
+a {
+    color: #983223;
+    text-decoration: underline;
 }
 
-a:hover{
-	color:#AB6218;  
+a:hover {
+    color: #AB6218;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-	color:#5A0E01 !important; 
-	font-weight:500;
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #5A0E01 !important;
+    font-weight: 500;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover{
-	color:#AB6218; 
-	font-weight:500;
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active:hover {
+    color: #AB6218;
+    font-weight: 500;
 }
 
 
@@ -105,17 +108,17 @@ a:hover{
     border-bottom: 1px solid #4c4c4c;
 }
 
-.bg-indigo{
-	background: #27486A; 
+.bg-indigo {
+    background: #27486A;
 }
 
-.bg-darkblue{
-	background: #091C3C; 
+.bg-darkblue {
+    background: #091C3C;
 }
 
-.bg-darkgrey{
-	background: #B22126; 
-	font-weight: 600; 
+.bg-darkgrey {
+    background: #B22126;
+    font-weight: 600;
 }
 
 
@@ -165,12 +168,12 @@ a:hover{
     text-decoration: none;
     height: auto;
     text-indent: 0;
-    -webkit-transition: background-color .3s ease-out,border-color .3s ease-out;
-    transition: background-color .3s ease-out,border-color .3s ease-out;
+    -webkit-transition: background-color .3s ease-out, border-color .3s ease-out;
+    transition: background-color .3s ease-out, border-color .3s ease-out;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
     margin-right: 1em;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     outline: 0;
     margin-bottom: 0.5em;
     background-color: #004A6B;
@@ -192,12 +195,12 @@ a:hover{
     text-decoration: none;
     height: auto;
     text-indent: 0;
-    -webkit-transition: background-color .3s ease-out,border-color .3s ease-out;
-    transition: background-color .3s ease-out,border-color .3s ease-out;
+    -webkit-transition: background-color .3s ease-out, border-color .3s ease-out;
+    transition: background-color .3s ease-out, border-color .3s ease-out;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
     margin-right: 1em;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     outline: 0;
     margin-bottom: 0.5em;
     background-color: black;
@@ -219,12 +222,12 @@ a:hover{
     text-decoration: none;
     height: auto;
     text-indent: 0;
-    -webkit-transition: background-color .3s ease-out,border-color .3s ease-out;
-    transition: background-color .3s ease-out,border-color .3s ease-out;
+    -webkit-transition: background-color .3s ease-out, border-color .3s ease-out;
+    transition: background-color .3s ease-out, border-color .3s ease-out;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
     margin-right: 1em;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     outline: 0;
     margin-bottom: 0.5em;
     color: #303030;
@@ -246,12 +249,12 @@ a:hover{
     text-decoration: none;
     height: auto;
     text-indent: 0;
-    -webkit-transition: background-color .3s ease-out,border-color .3s ease-out;
-    transition: background-color .3s ease-out,border-color .3s ease-out;
+    -webkit-transition: background-color .3s ease-out, border-color .3s ease-out;
+    transition: background-color .3s ease-out, border-color .3s ease-out;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
     margin-right: 1em;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     outline: 0;
     margin-bottom: 0.5em;
     color: #303030;
@@ -260,7 +263,7 @@ a:hover{
 }
 
 .container {
-  max-width: 960px;
+    max-width: 960px;
 }
 
 /*
@@ -268,17 +271,19 @@ a:hover{
  */
 
 .site-header {
-  background-color: #222222;
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+    background-color: #222222;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
 }
+
 .site-header a {
-  color: #D5D8cd;
-  transition: color .15s ease-in-out;
+    color: #D5D8cd;
+    transition: color .15s ease-in-out;
 }
+
 .site-header a:hover {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -287,158 +292,167 @@ a:hover{
  * Extra utilities
  */
 
-.flex-equal > * {
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
+.flex-equal>* {
     flex: 1;
-  }
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
 }
 
 .hero {
-  min-height: 300px;
-  background: #000 url("../Module1 /imgs/1 1.png") center center no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.hero:before {
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
-}
-.hero-content {
-  position: absolute;
-  bottom: 15px;
-  color: #fff;
+    min-height: 300px;
+    background: #000 url("../Module1 /imgs/1 1.png") center center no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-        background-color: #5A0E01 !important;
-  }
+.hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #5A0E01 !important;
+}
 
 .nav-link {
-	color:#5A0E01; 
+    color: #5A0E01;
 }
 
 .nav-link:hover {
-	color:#AB6218; 
+    color: #AB6218;
 }
 
-.flippyCard{
-width:300px;
-height:300px;
-margin:auto;
-text-align:center;
-position:relative;
- color: #fff; 
-	border: 10px solid #004667; 
-	border-radius: 5px; 
+.flippyCard {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    border: 10px solid #004667;
+    border-radius: 5px;
 }
-.frontOfCard{
-width:280px;
-height:280px;
-  padding: 1em; 
-position:absolute;
-top:0;
-background:#004667;
-transform:perspective(2000px) rotateX(0deg);
-z-index:5;
-transition:all .5s ease;
+
+.frontOfCard {
+    width: 280px;
+    height: 280px;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    background: #004667;
+    transform: perspective(2000px) rotateX(0deg);
+    z-index: 5;
+    transition: all .5s ease;
 }
-.flippyCard:hover .frontOfCard{
-   transform:perspective(2000px) rotateX(180deg);
-z-index:-5;
+
+.flippyCard:hover .frontOfCard {
+    transform: perspective(2000px) rotateX(180deg);
+    z-index: -5;
 }
-.backOfCard{
-z-index:-3;
-position:absolute;
-top:0;
-width:280px;
-height:280px;
-background:#004667;
-        transform:perspective(2000px) rotateX(-180deg);
-        transition:all .5s ease;
-text-align:center;
-  padding: 1em; 
+
+.backOfCard {
+    z-index: -3;
+    position: absolute;
+    top: 0;
+    width: 280px;
+    height: 280px;
+    background: #004667;
+    transform: perspective(2000px) rotateX(-180deg);
+    transition: all .5s ease;
+    text-align: center;
+    padding: 1em;
 }
 
 
-.flippyCard:hover .backOfCard{
-        transform:perspective(2000px) rotateX(0deg);
-z-index:7;
+.flippyCard:hover .backOfCard {
+    transform: perspective(2000px) rotateX(0deg);
+    z-index: 7;
 }
 
-.zoomPic{
-  display:flex;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  position: relative;
-  background: #004667;
-  border: 8px solid #004667;
-	border-radius: 5px;
-  justify-content:center;
-  align-items:center;
-  margin:0em 3em;
+.zoomPic {
+    display: flex;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    background: #004667;
+    border: 8px solid #004667;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 3em;
 }
 
-.zoomPic img{
-  transition: transform 1s ease;
+.zoomPic img {
+    transition: transform 1s ease;
 }
 
-.zoomPic:hover img{
-  transform: scale(1.5);
+.zoomPic:hover img {
+    transform: scale(1.5);
 }
 
-.zoomPicOverlay{
-  position: absolute;
-  bottom: 0;
-  background: rgba(0,0,0,0.5);
-  color: white;
-  width: 100%;
-  text-align: center;
-  height: 0;
-  transition: height 0.5s ease;
+.zoomPicOverlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 0;
+    transition: height 0.5s ease;
 }
 
-div:hover .zoomPicOverlay{
-  height: 50px;
+div:hover .zoomPicOverlay {
+    height: 50px;
 }
 
 .clickable-img {
-  position: relative;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px; 
-  }
+    position: relative;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
 }
 
-.clickable-img > div {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: #004667;
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-  border-radius: 5px; 
+.clickable-img>div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #004667;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
 }
-.clickable-img > div:hover {
-  background: #000;
+
+.clickable-img>div:hover {
+    background: #000;
 }
 
 .tooltip-simple-image {
     position: relative;
     display: inline-block;
-    font-size:30px;
+    font-size: 30px;
 }
 
 .tooltip-simple-image .tooltiptext {
@@ -453,7 +467,7 @@ div:hover .zoomPicOverlay{
     z-index: 1;
     bottom: 150%;
     margin-left: -165px;
-   font-size:16px;
+    font-size: 16px;
 }
 
 .tooltip-simple-image .tooltiptext::after {
@@ -471,18 +485,17 @@ div:hover .zoomPicOverlay{
     visibility: visible;
 }
 
-.lesson-card{
+.lesson-card {
     min-height: 200px;
 }
 
-.flowersBackground{
-  background-image: url("../imgs/background 1.png"); 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  padding-top: 50px;
-  padding-bottom: 140px;
-  margin-top: 30px; 
-  margin-bottom: 30px; 
+.flowersBackground {
+    background-image: url("../imgs/background 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 140px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-
