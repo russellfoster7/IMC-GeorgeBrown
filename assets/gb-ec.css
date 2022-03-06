@@ -89,6 +89,9 @@ a:hover {
     color: #AB6218;
 }
 
+iframe { 
+    border: solid 3px #004A6B; 
+}
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
     color: #5A0E01 !important;
