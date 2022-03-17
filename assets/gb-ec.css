@@ -513,3 +513,37 @@ div:hover .zoomPicOverlay {
   right: 40px;
   top:15px; 
 }
+
+
+.media-padding{
+	padding:0em 9em 0em 9em;
+}
+
+@media screen and (max-width: 1100px) {
+	.media-padding{
+	padding:3em 10em 0em 10em;
+}
+}
+@media screen and (max-width: 800px) {
+	.media-padding{
+	padding:4em 6em 0em 6em;
+}
+}
+
+@media screen and (max-width: 650px) {
+	.media-padding{
+	padding:7em 6em 0em 6em;
+}
+}
+
+@media screen and (max-width: 500px) {
+	.media-padding{
+	padding:8em 2.3em 0em 2.3em;
+}
+}
+
+@media screen and (max-width: 350px) {
+	.media-padding{
+	padding:10em 2.3em 0em 2.3em;
+}
+}
