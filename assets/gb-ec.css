@@ -515,7 +515,7 @@ div:hover .zoomPicOverlay {
 }
 
 .imgBottom{
-	transform: translateY(-600px); 
+	transform: translateY(-400px); 
 	z-index: -2; 
 	position:absolute;
 }
