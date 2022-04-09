@@ -514,41 +514,63 @@ div:hover .zoomPicOverlay {
   top:15px; 
 }
 
+.imgBottom{
+	transform: translateY(-600px); 
+	z-index: -2; 
+	position:absolute;
+}
+
 
 .media-padding{
-	padding:0em 14em 0em 14em;
+	transform: translateY(-400px);
+	padding:0em 18em 0em 18em;
+}
+
+@media screen and (max-width: 1600px) {
+	.media-padding{
+	padding:2em 16em 2em 16em;
+}
+	
+@media screen and (max-width: 1400px) {
+	.media-padding{
+	padding:5em 14em 5em 14em;
 }
 
 @media screen and (max-width: 1250px) {
 	.media-padding{
-	padding:0em 9em 0em 9em;
+	padding: 7em 12em 7em 12em;
+}
+	
+@media screen and (max-width: 1250px) {
+	.media-padding{
+	padding:10em 12em 10em 12em;
 }
 
 @media screen and (max-width: 1100px) {
 	.media-padding{
-	padding:3em 10em 0em 10em;
+	padding:12em 9em 10em 8em;
 }
 }
 @media screen and (max-width: 800px) {
 	.media-padding{
-	padding:4em 6em 0em 6em;
+	padding:14em 6em 8em 6em;
 }
 }
 
 @media screen and (max-width: 650px) {
 	.media-padding{
-	padding:7em 6em 0em 6em;
+	padding:16em 6em 8em 6em;
 }
 }
 
 @media screen and (max-width: 500px) {
 	.media-padding{
-	padding:8em 2.3em 0em 2.3em;
+	padding:16em 3em 12em 3em;
 }
 }
 
 @media screen and (max-width: 350px) {
 	.media-padding{
-	padding:10em 2.3em 0em 2.3em;
+	padding:18em 2em 16em 2em;
 }
 }
