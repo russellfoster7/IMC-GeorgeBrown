@@ -528,12 +528,12 @@ div:hover .zoomPicOverlay {
 
 @media screen and (max-width: 1600px) {
 	.media-padding{
-	padding:2em 16em 2em 16em;
+	padding:5em 16em 2em 16em;
 }
 	
 @media screen and (max-width: 1400px) {
 	.media-padding{
-	padding:5em 14em 5em 14em;
+	padding:7em 14em 5em 14em;
 }
 
 @media screen and (max-width: 1250px) {
